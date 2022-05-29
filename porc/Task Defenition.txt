@@ -1,0 +1,40 @@
+The goal of the task is to get a randomly generated 2D NFT collection images with the given assets.
+
+You are given folders of images and count list json file.
+The images in each folder are the PNG assets for the layer with the same name as the folder.
+The `counts.json` file includes all the counts for all the layer images, on how many times each image should be used/met in the collection.
+
+The goal is to generate and render 200 NFT images where each NFT should have some layer image from each layer.
+Render final images using alhpa blending (all the images have transparency).
+The order of rendering/blending of the layers is important. Keep the order as given in the example below.
+
+Example:
+------------------------------------------------------------------
+Background     - Lavendar        (1 of 35 in the whole collection)
+Skin           - Peachy          (1 of 70 in the whole collection)
+Clothes        - Filipina Gown   (1 of 11 in the whole collection)
+Chain          - No Chain        (1 of 55 in the whole collection)
+Eyes           - Lighting Laser  (1 of 40 in the whole collection)
+Hats and Hair  - Moon Halo       (1 of  5 in the whole collection)
+Earring        - Diamond         (1 of 20 in the whole collection)
+Nose and mouth - Lip Curl        (1 of 35 in the whole collection)
+------------------------------------------------------------------
+(see the example image with name `example.jpg`)
+
+
+You are free to use any programming languages and libraries.
+
+------------------------------------------------------------
+
+Expected result:
+200 images with correct layer image counts.
+
+Bonus point:
+Try to include the asset names in the rendered image names.
+
+------------------------------------------------------------
+
+Have questions, let me know: artur@gsd.club 
+
+
+Good luck !
